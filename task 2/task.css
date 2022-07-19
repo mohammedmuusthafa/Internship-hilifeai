@@ -219,3 +219,9 @@ p{
     }
     .o1{color: #003a91;}
     .o2{color: #73AD21;}
+    .mask1 {
+      -webkit-mask-image: url(w3logo.png);
+      mask-image: url(w3logo.png);
+      -webkit-mask-repeat: no-repeat;
+      mask-repeat: no-repeat;    
+    }
