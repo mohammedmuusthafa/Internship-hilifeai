@@ -9,10 +9,10 @@
   <link rel="stylesheet" href="maddy.css">
 <body>
 
-<div class="container-fluid p-5 bg-primary text-white text-center">
+<div class="container-fluid p-5 bg-primetext-white text-center">
   <h1 class="m1">Thagam steel company</h1>
   <p>Thangam Steel Company in Kumbakonam is one of the leading businesses in the Steel Building Material Dealers. </p> 
-</div><div class="p-5 bg-primary text-white text-center">
+</div>
 </div><nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <div class="container-fluid">
     <ul class="navbar-nav">
@@ -54,37 +54,37 @@
     </div>
   </div>
 </div>
-<img class="img"  src="https://o.remove.bg/downloads/bc5921b7-8696-47bf-b38a-8d19cc51bcbe/download_m-removebg-preview.png" class="rounded" alt="Cinque Terre" width="350" height="350"> 
- <div class="container mt-3">
-  <h2>OTHER TOP COMPANYS</h2>
-  <h4> IN INDIA...</h4>            
-  <table class="table">
-    <thead>
-      <tr>
-        <th> companies name</th>
-        <th>rank</th>
-        <th>Email</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>TaTa steel</td>
-        <td>1</td>
-        <td>cosec@tatasteel.com </td>
-      </tr>
-      <tr>
-        <td>Amman Steel</td>
-        <td>2</td>
-        <td>@ammantry.com</td>
-      </tr>
-      <tr>
-        <td>JSW steel</td>
-        <td>3</td>
-        <td> lancy.varghese@jsw.in </td>
-      </tr>
-    </tbody>
-  </table>
+<div class="dropdown">
+  <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown">
+    read more
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="https://www.tatasteel.com/">TaTa steel</a></li>
+    <li><a class="dropdown-item" href="https://ammantry.com/dealers/">Amman Steel</a></li>
+    <li><a class="dropdown-item" href="https://www.jsw.in/">JSW steel</a></li>
+  </ul>
 </div>
+</div>
+<div class="container mt-3">
+  <h2>Stacked form</h2>
+  <form action="/action_page.php">
+    <div class="mb-3 mt-3">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="mb-3">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+    </div>
+    <div class="form-check mb-3">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
 
 </body>
 </html>
