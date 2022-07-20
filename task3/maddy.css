@@ -10,3 +10,15 @@
  .m4{
     color: blue;
  }
+ .imgg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px;
+ }
+ .img{
+    display: block;
+    margin-left:left;
+    margin-right: auto;
+    padding: 7px;
+ }
